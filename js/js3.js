@@ -23,7 +23,7 @@ for (var i=0;i<div10.length;i++){
 			div11[index].style.height='0';
 		  }
 			
-			p10[index].style.display='none';
+			p10[index].style.top='-500px';
 			div11[i].style.transition='2s';
 			div10[3].style.left='-30'+'px';
 			div10[3].style.width=1000+'px';
@@ -50,7 +50,7 @@ for (var i=0;i<div10.length;i++){
 			div10[i].style.height=470+'px';
 			div11[i].style.width=207.5+'px';
 			div11[i].style.height=470+'px';
-			p10[i].style.display='block';
+			p10[i].style.top='0px';
 			div11[i].style.display=470+'px';
 			div10[3].style.left=0+'px';
 			div10[3].style.transiton='0s';
