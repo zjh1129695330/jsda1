@@ -1,0 +1,53 @@
+img{
+	width: 590px;
+	height: 470px;
+}
+.ctboxs{
+	width:830px;
+	height: 470px;
+	position: relative;
+	overflow: hidden;
+  border:1px solid #000;
+  margin: 0px auto;
+}
+.ctboxs .ctbox{
+	width: 650px;
+	height: 470px;
+	display: flex;
+	position: absolute;
+	transition: 2s;
+}
+.ctboxs .ctbox .title{
+	font-size: 22px;
+	padding: 130px 19px 0;
+	line-height: 36px;
+	color: white;
+	cursor: pointer;
+
+}
+.ctboxs .ct1 .title{
+	background: #00007F;
+}
+.ctboxs .ct2 .title{
+	background: #EE8800;
+}
+.ctboxs .ct3 .title{
+	background: #7F7F00;
+}
+.ctboxs .ct4 .title{
+	background: #2361AD;
+}
+.ctboxs .ct1{
+	left: 0;
+	transition: 2s;
+}
+.ctboxs .ct2{
+	left: 650px;
+}
+.ctboxs .ct3{
+	left: 710px;
+}
+.ctboxs .ct4{
+	left: 770px;
+}
+

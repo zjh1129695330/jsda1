@@ -1,0 +1,81 @@
+#div1{
+	display: flex;
+	overflow: hidden;
+}
+.div1{
+	height: 470px;
+	width:830px;
+	border:1px solid #000;
+	margin: 0px auto;
+	z-index: 5;
+	opacity: 1;
+}
+#div1 .div10{
+		height: 470px;
+	width:207.5px;
+}
+#div1 .div2{
+	background: url('../images/1.jpg') no-repeat 50% 50%;
+	z-index: 3;
+}
+#div1 .div3{
+		background: url('../images/2.jpg') no-repeat 50% 50%;
+		z-index: 2;
+	}
+#div1 .div4{
+		background: url('../images/3.jpg') no-repeat 50% 50%;
+		z-index: 1;
+}
+#div1 .div5{
+	background: url('../images/4.jpg') no-repeat 50% 50%;
+position: relative;
+z-index: 0;
+}
+#div1 div{
+float: left;
+}
+#div1 .div11{
+	height: 470px;
+	width: 207.5px;
+background: #999;
+opacity: .5;
+}
+
+#div1 p{
+	color: #fff;
+	text-align: center;
+	line-height: 350px;
+	font-size: 50px;
+	transition: 2s;
+}
+#div1 img{
+	height: 470px;
+	width: 500px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	opacity: 1;
+}
+.div10{
+	transition: 2s;
+}
+/* .img1{
+	display: block;
+} */
+/* .p1{
+display: none;
+}
+.div2{
+	height: 400px;
+	width:0px;
+	background: url('../images/1.jpg') no-repeat 50% 50%;
+}
+其余几个150
+
+.div6{
+	height: 400px;
+	width: 0px;
+background: #999;
+opacity: .5;
+}
+其余几个款150 */

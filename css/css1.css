@@ -1,0 +1,91 @@
+#carouse101 .imgs img{
+			width:830px;
+			height:470px ;
+			display: block;
+			/* vertical-align: middle; *//* 文本的垂直居中 */
+		}
+		#carouse101 ul{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		#carouse101 .box{
+			width: 830px;
+			height: 470px;
+			position: relative;
+			border:1px solid #000;
+			margin: 0px auto;
+			overflow: hidden;
+		}
+		#carouse101 .imgs{
+			position: absolute;
+			display:flex;
+			top: 0;
+		}
+		#carouse101 .arrows span{
+			position: absolute;
+			top: 215px;
+			color: #fff;
+			background: #000;
+			text-align: center;
+			width: 30px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 36px;
+			vertical-align: middle;
+			cursor: pointer;/* 鼠标指针（小手） */
+			font-family: 黑体;
+			opacity: 0;
+		}
+		#carouse101 .box:hover .arrows span{
+			opacity: 0.3;
+		}
+		#carouse101 .box .arrows span:hover{
+			opacity: 1;
+		}
+		#carouse101 .arrows .left{
+			left: 0;
+		}
+		#carouse101 .arrows .right{
+			right: 0;
+		}
+		#carouse101 .dots{
+			position: absolute;
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			bottom: 20px;
+		}
+		#carouse101 .dots li{
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 24px;
+			text-align: center;
+			background: orange;
+			border-radius: 50%;
+			border: 3px solid #ddd;
+			margin: 0 2px;
+			cursor: pointer;
+			transition: 1s linear;
+		}
+		#carouse101 .dots .act{
+			background: red;
+		}
+		#carouse101 .imgs li{
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			z-index:-1;
+			transition: 1s linear;
+		}
+		#carouse101 .imgs .show{
+			opacity: 1;
+			z-index: 0;
+		}
+		#carouse101{
+			width: 830px;
+			height: 470px;
+			margin: 0 auto;
+		}
