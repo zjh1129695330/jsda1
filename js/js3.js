@@ -32,12 +32,13 @@ for (var i=0;i<div10.length;i++){
 			div11[3].style.width=600+'px';
 			div11[3].style.position='relative';
 			div10[3].style.left='-160'+'px';
-			if(div10[3].style.left!='-90px' && div10[index].style.width!='110px'){
+			if(div10[index].style.width!='110px'){
 				div10[3].style.left='-240'+'px';
+				div10[3].style.transiton='0.1s';
 			}else{
-				
+				div10[3].style.left='0'+'px';
+				div10[3].style.transiton='0.1s';
 			}
-			div10[3].style.transiton='5s';
 			}
 			}
 			}
@@ -51,7 +52,7 @@ for (var i=0;i<div10.length;i++){
 			p10[i].style.display='block';
 			div11[i].style.display=470+'px';
 			div10[3].style.left=0+'px';
-			div10[3].style.transiton='2s';
+			div10[3].style.transiton='0.1s';
 			div10[3].style.width=600+'px';
 			div11[3].style.width=600+'px';
 			div10[3].style.left='-190'+'px';
